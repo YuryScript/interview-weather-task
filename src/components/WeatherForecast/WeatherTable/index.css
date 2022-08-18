@@ -1,0 +1,25 @@
+.table {
+  font-size: 2em;
+  display: flex;
+  flex-flow: column;
+}
+
+.loader {
+  text-align: center;
+}
+
+.header {
+  border-bottom: 2px solid #d4a373;
+  border-radius: 2px;
+}
+
+.row {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+}
+
+.row > * {
+  min-width: 300px;
+}
+
